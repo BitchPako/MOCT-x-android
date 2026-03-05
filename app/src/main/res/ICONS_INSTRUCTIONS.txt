@@ -1,0 +1,16 @@
+Place branded launcher and splash assets here after removing legacy placeholders.
+
+Required files to provide:
+- app/src/main/res/mipmap-mdpi/ic_launcher.png (48x48)
+- app/src/main/res/mipmap-hdpi/ic_launcher.png (72x72)
+- app/src/main/res/mipmap-xhdpi/ic_launcher.png (96x96)
+- app/src/main/res/mipmap-xxhdpi/ic_launcher.png (144x144)
+- app/src/main/res/mipmap-xxxhdpi/ic_launcher.png (192x192)
+- app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml (adaptive launcher)
+- app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml (adaptive round launcher)
+- app/src/main/res/drawable/splash_logo.xml or splash_logo.png (center logo used by splash theme)
+- app/src/main/res/drawable/splash_background.xml (splash background)
+
+If you use adaptive icons, also include:
+- app/src/main/res/drawable/ic_launcher_foreground.xml or .png
+- app/src/main/res/drawable/ic_launcher_background.xml or .png
